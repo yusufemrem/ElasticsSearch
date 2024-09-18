@@ -3,9 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ElasticsearchWithNet", "ElasticsearchWithNet", "{A46D5507-9387-412C-9C77-5B9C820FF8E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{3AA46969-627D-4146-BEA2-B6B1EC0B0BF5}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\emrem\Desktop\UdemyElasticsearchWithNet-lessons-docker-compose\docker-compose.yml = C:\Users\emrem\Desktop\UdemyElasticsearchWithNet-lessons-docker-compose\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{CBB7BFE3-A83D-49CA-B69B-6E800A22E367}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AA46969-627D-4146-BEA2-B6B1EC0B0BF5} = {A46D5507-9387-412C-9C77-5B9C820FF8E5}
+		{CBB7BFE3-A83D-49CA-B69B-6E800A22E367} = {A46D5507-9387-412C-9C77-5B9C820FF8E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8525D40-BAE9-4E0F-8393-B3B29F383CC7}
